@@ -56,6 +56,10 @@ body, html {
   height: 330px;
   width: 480px;
 }
+.SpecialContent2{
+  height: 100%;
+  width: 100%;
+}
 .srcSpecialContent-Content1{
   background-image: url("SpecialContent/SC_Pic2.png");
 }
@@ -101,46 +105,17 @@ body, html {
   }
 }
 
-
-.Content1{
-    float: right;
-    height:400px;
-    width: 660px;
-    margin-right: 80px;
-    margin-top:110px;
+.MyTester{
+  background-image: url('SpecialContent/SC_BG2.png');
 }
 
-}
-.bgContent1 a{
-    position: absolute;
-}
-.Content2{
-    height:400px;
-    width: 660px;
-    margin-left: 80px;
-    margin-top: 50px;
+
+
+
+
+.CompanyContent{
 
 }
-.bgContent2{
-    background-image: url("SpecialContent/SC_Pic2.png");
-    height: 100%;
-    width: 100%;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    padding-top: 344px; 
-}
-.bgContent2 a{
-    position: absolute;
-}
-
-.DescriptionContent{
-    font-size: 12px; 
-    color: lightslategrey;
-    margin-top: 20px;
-    float: right;
-} 
-  SPECIAL CONTENT 
 .Company{
     background-image: url("Company/C_BG.png");
     height: 100%;
@@ -149,20 +124,6 @@ body, html {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-}
-.HeaderCompany{
-    margin-right:240px;
-    float: right;
-}
-.Company span{
-    float: right;
-    font-size: 16px;
-}
-.Company h2{
-    font-size: 110px;
-}
-.HeaderCompany{
-    margin-bottom: 100px;
 }
 .Company>.container>.row {
     height: 400px;
