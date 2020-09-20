@@ -100,7 +100,7 @@ body, html {
       column-count: 6;
   }
 }
-/* 
+
 
 .Content1{
     float: right;
@@ -139,8 +139,8 @@ body, html {
     color: lightslategrey;
     margin-top: 20px;
     float: right;
-} */
-  /* SPECIAL CONTENT 
+} 
+  SPECIAL CONTENT 
 .Company{
     background-image: url("Company/C_BG.png");
     height: 100%;
@@ -232,7 +232,7 @@ body, html {
 .Company>.container>.row>div:nth-child(2)>.BGContent2 a{
     margin-top: 60%;
 }
-*/
+
   /* SPECIAL CONTENT */
 .Work{
     background-image: url("Work/W_BG.png");
