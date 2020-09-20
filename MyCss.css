@@ -7,6 +7,12 @@ body, html {
   height: 100%;
   width: 100%;
 }
+.bg{
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
  /* CAROUSEL */
 .carousel-indicators {
   text-align: right;
@@ -28,11 +34,6 @@ body, html {
   /* TATEGAKI */
 .TategakiBackGround{
   background-image: url("Tategaki/tategakiBG2.png");
-  height: 100%;
-  width: 100%;
-  text-align: center;
-  background-position: center;
-  background-size: cover;
   }
 .tategaki {
   text-align      : left;        
@@ -47,18 +48,12 @@ body, html {
   /* SPECIAL CONTENT */
 .bgSpecialContent{
     background-image: url("SpecialContent/SC_BG2.png");
-    height: 100%;width: 100%;background-position: center;background-repeat: no-repeat;background-size: cover;
 }
-.bgSpecialContent span{
-    font-size: 10pt;
+.bgContent1{
+  background-image: url("SpecialContent/SC_Pic1.png");
 }
-.bgSpecialContent h2{
-    font-size: 110px;
-}
-.HeaderSpecialContent{
-    margin-left:230px;
-    padding-bottom:100px;
-}
+/* 
+
 .Content1{
     float: right;
     height:400px;
@@ -66,14 +61,7 @@ body, html {
     margin-right: 80px;
     margin-top:110px;
 }
-.bgContent1{
-    background-image: url("SpecialContent/SC_Pic1.png");
-    height: 100%;
-    width: 100%;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    padding-top: 342px;
+
 }
 .bgContent1 a{
     position: absolute;
@@ -103,7 +91,7 @@ body, html {
     color: lightslategrey;
     margin-top: 20px;
     float: right;
-}
+} */
   /* SPECIAL CONTENT */
 .Company{
     background-image: url("Company/C_BG.png");
