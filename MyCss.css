@@ -8,12 +8,13 @@ body, html {
   width: 100%;
 }
 .bg{
-
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 100%;
+  background-attachment: fixed;
+  height: auto;
   width: 100%;
+  border-style: solid ;
 }
  /* CAROUSEL */
 .carousel-indicators {
@@ -36,6 +37,8 @@ body, html {
   /* TATEGAKI */
 .TategakiBackGround{
   background-image: url("Tategaki/tategakiBG2.png");
+  height: auto;
+  width: auto;
   }
 .tategaki {
 	direction: ltr;
@@ -50,12 +53,10 @@ body, html {
 }
   /* SPECIAL CONTENT */
 .bgSpecialContent{
-    background-image: url("SpecialContent/SC_BG3.png");
+    background-image: url("SpecialContent/SC_BG2.png");
 }
 .SpecialContent{
-  height: 460px;
-  width: 500px; 
-
+  height: 300px;
 }
 .SpecialContent2{
   height: 100%;
@@ -67,88 +68,48 @@ body, html {
 .srcSpecialContent-Content2{
   background-image: url("SpecialContent/SC_Pic1.png");
 }
-  /* Company */
-.CompanyContent{
-
-}
+  /* COMPANY */
 .Company{
-    background-image: url("Company/C_BG2.png");
-    height: 100%;
-    width: 100%;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+  background-image: url("Company/C_BG.png");
 }
-.Company>.container>.row {
-    height: 400px;
-    width: 1400px;
-    margin-left:-170px ;
-  }
-  .Company>.container>.row>div:nth-child(1) {
-    height: 300px;
-    width: 440px;
-  }
-  .Company>.container>.row>div:nth-child(1)>.BGContent1{
-   background-color: #efefef;
-   height: 300px;
-   width: 440px;
-   padding-top: 20%;
-   text-align: center;
-  }
-  .Company>.container>.row>div:nth-child(2) {
-    height: 300px;
-    width: 440px;
-  }
-  .Company>.container>.row>div:nth-child(2)>.BGContent2{
-    background-image: url("Company/C_Pic1.png");
-    height: 100%;
-    width: 100%;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-   }
-
-  .Company>.container>.row>div:nth-child(3) {
-    height: 300px;
-    width: 440px;
-  }
-  .Company>.container>.row>div:nth-child(3)>.BGContent3{
-    background-color: #efefef;
-    height: 300px;
-    width: 440px;
-    padding-top: 20%;
-    text-align: center;
-   }
-   .LogoBG{
-       font-size: 70px; 
-       letter-spacing: 6px;
-       font-weight: bold;
-       font-family: "MS Gothic";
-
-   }
-   .Company>.container>.row span{
-       font-size: 10pt;
-   }
-.DescriptionContentCompany{
-    color: lightslategrey;
-    margin-top: 10px;
-    float: right;
+.CompanyContentWrapper{
+  height: 300px;
+  width: 100%;
 }
-.Company>.container>.row>div:nth-child(1)>.BGContent1 a{
-    margin-top: 8%;
-    margin-right: 55.1%;
-    position: relative;
+.CompanyContent{
+  height: 240px;
 }
-.Company>.container>.row>div:nth-child(3)>.BGContent3 a{
-    margin-top: 8%;
-    margin-right: 55%;
-    position: relative;
+.srcCompany-Content1{
+ background-image: url('Company/C_Pic1.png');
+ height: 100%;
+ text-align:center;
 }
-.Company>.container>.row>div:nth-child(2)>.BGContent2 a{
-    margin-top: 60%;
+.srcCompany-Content2{
+  background-color: #efefef;
+  height: 100%;
+  text-align:center;
+}
+  /* COMPANY */
+.Work{
+background-image: url('Work/W_BG.png');
 }
 
-  /* SPECIAL CONTENT */
+.WorkContentWrapper{
+  height:320px;
+  width:100%;
+}
+.WorkContent{
+  height: 270px;
+}
+.srcWork-Content1{
+  background-image: url('Work/W_Pic2.png');
+  height: 100%;
+}
+.srcWork-Content2{
+  background-image: url('Work/W_Pic1.png');
+  height: 100%;
+}
+/*
 .Work{
     background-image: url("Work/W_BG.png");
     height: 100%;
