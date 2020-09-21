@@ -53,3 +53,10 @@ body, html {
 .bgSpecialContent{
   background-image: url("SpecialContent/SC_BG2.png");
 }
+
+.BackButton{
+  font-weight: bold;
+  color:blue;
+  text-decoration: none;
+  text-align: center;
+}
