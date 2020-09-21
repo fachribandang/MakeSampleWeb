@@ -1,0 +1,58 @@
+body {
+  font-family: "游ゴシック", "Yu Gothic", "Hiragino Kaku Gothic ProN", "Hiragino Kaku Gothic Pro", "メイリオ", "ＭＳ ゴシック", sans-serif;
+  line-height: 1.6;
+  font-weight: 500;
+  }
+  body, html {
+    height: 100%;
+    width: 100%;
+  }
+  .bg{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-attachment: fixed; */
+    height: auto;
+    width: 100%;
+  }
+   /* CAROUSEL */
+  .carousel-indicators {
+    text-align: right;
+    float: right;
+    right: 2% !important;
+    left: inherit;
+  }
+  .carousel-control-prev{
+    top: 90%;
+    left: 41.5%;
+    opacity: 100%;
+  }
+  .carousel-control-next{
+    top: 75%;
+    right: 43.5%;
+    opacity: 100%;
+  }
+/*--------------------------------CONTENT--------------------------------*/
+  /* TATEGAKI */
+  .tategaki {
+    direction: ltr;
+    display: inline-block;
+    text-align: left;
+    -ms-writing-mode: tb-rl;
+    writing-mode: vertical-rl;
+  }
+  .highlight{
+    background-color: #ec9700;
+  }
+  
+  /* SpecialContent */
+.bgSpecialContent{
+  background-image: url("SpecialContent/SC_BG2.png");
+}
+
+.BackButton{
+  font-weight: bold;
+  color:blue;
+  text-decoration: none;
+  text-align: center;
+}

@@ -34,9 +34,6 @@ body, html {
 }
 /*--------------------------------CONTENT--------------------------------*/
   /* TATEGAKI */
-.TategakiBackGround{
-  background-image: url("Tategaki/tategakiBG2.png");
-  }
 .tategaki {
 	direction: ltr;
 	display: inline-block;
