@@ -43,7 +43,6 @@ body, html {
 /*Assets*/
 .bg {
     height: 100%;
-    width: auto;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
