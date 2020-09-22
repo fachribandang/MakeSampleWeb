@@ -2,6 +2,7 @@
 /*General*/
 body, html {
     height: 100%;
+    width: 100%;
   }
 
   .opacity-0 {
@@ -26,10 +27,23 @@ body, html {
   .carousel-inner h3{
       font-weight: bold;
   }
-					
+  .fade {
+    opacity: 1;
+  }
+  .carouselExampleCaptions h3{
+    font-weight: bold;
+  }
+  .zoom {
+    transition: transform .2s; /* Animation */
+  }
+  .zoom:hover {
+    transform: scale(1.01); /* (150% zoom)*/
+  }
+
 /*Assets*/
 .bg {
     height: 100%;
+    width: auto;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
