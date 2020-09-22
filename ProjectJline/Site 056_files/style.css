@@ -426,9 +426,9 @@ footer .copyright {
 
 section .title {
 	margin-bottom: 5rem;
-	font-family: 'Oswald', sans-serif;
-	font-weight: 700;
-	font-size: 12.7rem;
+	font-family: 'Myriad Pro Regular', sans-serif;
+	/* font-weight: 700; */
+	font-size: 11rem;
     letter-spacing: -3px;
 	color:#333333;
 	text-transform: uppercase;
@@ -536,13 +536,20 @@ figcaption.imglink--choco a::after {
 	z-index: 100;
 }
 
-
+  /* TATEGAKI */
+  .tategaki {
+    direction: ltr;
+    display: inline-block;
+    text-align: left;
+    -ms-writing-mode: tb-rl;
+    writing-mode: vertical-rl;
+  }
 
 #maps {
 	margin-bottom: 0;
 	padding: 0px 32rem;
 	padding-bottom:50rem;
-	background:url(../img/map.png) no-repeat bottom right;
+	background:url(map.png) no-repeat bottom right;
 	background-position-x: 44vw;
 	font-family: 'Yu Gothic Bold';
 	font-size: 1.6rem;
