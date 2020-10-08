@@ -37,6 +37,16 @@
    padding: 7px 30px;
    line-height: 47px;
 }
+/*Menu Img*/
+.Menu-img{
+  width:200px;
+  height: 200px;
+  border-radius: 50%;
+  border-style: solid;
+  border-color: black;
+
+}
+
   /*Footer*/
   body {
     font-family: 'Signika', sans-serif;
