@@ -1,0 +1,95 @@
+.message {
+  position: relative;
+  padding-top: 14rem;
+  padding-bottom: 7rem;
+  text-align: center; }
+  .message::before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: url("../img/bg_pattern.png") repeat top left;
+    opacity: 0.03;
+    content: "";
+    z-index: -1; }
+  .message img.message__logo {
+    width: 20em;
+    margin-bottom: 2.5rem; }
+  .message h2 {
+    margin-bottom: 5rem;
+    font-weight: 500;
+    font-size: 1.6rem;
+    font-family: "Poppins", sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #333333; }
+    .message h2::after, .message h2::before {
+      content: " ";
+      width: 1.6rem;
+      border-bottom: 2px solid #313131;
+      display: inline-block;
+      transform: translateY(-250%);
+      margin: 0 1rem; }
+  .message p {
+    font-family: "Yu Gothic", sans-serif;
+    font-size: 2rem;
+    font-weight: 700;
+    color: #333333;
+    line-height: 2.25; }
+
+.profile {
+  position: relative; }
+  .profile .btn {
+    position: absolute;
+    left: 0;
+    bottom: 4rem;
+    width: 30rem;
+    height: 6rem;
+    font-size: 2.4rem;
+    padding: 1.2rem;
+    letter-spacing: 2px;
+    border-radius: 0; }
+
+.blog {
+  padding-top: 10rem;
+  padding-bottom: 10rem;
+  background: #ffffff;
+  text-align: left; }
+
+.action-groups {
+  background: url("../img/bg_footer.jpg") no-repeat top left;
+  background-size: cover; }
+  .action-groups ul {
+    list-style: none; }
+    .action-groups ul a {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+      margin: 9rem auto;
+      padding: 7rem 5.8rem;
+      font-size: 24px;
+      font-family: "Yu Gothic", sans-serif;
+      color: white;
+      font-weight: bold;
+      text-align: left; }
+      .action-groups ul a a:hover {
+        text-decoration: none; }
+
+.banner__slider li:nth-child(1) {
+  background-image: url("../img/bg_banner.jpg"); }
+
+@media (max-width: 575.98px) {
+  .message {
+    padding-top: 8rem;
+    padding-bottom: 8rem; }
+    .message p {
+      padding: 1rem;
+      line-height: 1;
+      font-size: 1.2rem; }
+  .blog {
+    padding-top: 8rem; }
+  .action-groups ul a {
+    margin: 2rem auto;
+    padding: 4rem; } }

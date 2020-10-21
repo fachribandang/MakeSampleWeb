@@ -1,0 +1,23 @@
+.welfare {
+  text-align: center;
+  font-family: "Yu Gothic", sans-serif; }
+  .welfare > * {
+    padding: 1rem; }
+  .welfare figure {
+    height: 100%;
+    border: 1px solid #dddddd;
+    padding: 6rem 3rem; }
+  .welfare img {
+    max-width: 8rem; }
+  .welfare .figure__title {
+    margin: 2rem auto;
+    font-weight: 700;
+    font-size: 1.8rem;
+    color: #1eb9ee; }
+  .welfare .figure__desc {
+    font-size: 1.6rem;
+    letter-spacing: 2px;
+    line-height: 1.9;
+    font-weight: 500;
+    color: #333333;
+    text-align: left; }

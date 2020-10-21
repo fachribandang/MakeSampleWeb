@@ -1,0 +1,109 @@
+.work-description {
+  padding: 4rem 0;
+  text-align: center;
+  font-family: "Yu Gothic", sans-serif; }
+  .work-description p {
+    font-size: 1.6rem;
+    color: #333333;
+    line-height: 1.875; }
+
+.work-story {
+  padding: 8rem 0;
+  background: #efefef; }
+  .work-story h4 {
+    display: flex;
+    align-items: center;
+    margin-bottom: 3rem;
+    font-size: 2.4rem;
+    font-family: "Yu Gothic", sans-serif;
+    color: #1eb9ee;
+    font-weight: bold;
+    line-height: 1.458; }
+    .work-story h4 span {
+      margin-left: 1rem; }
+  .work-story .work__item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 6rem; }
+    .work-story .work__item p {
+      font-size: 1.6rem;
+      color: #333333;
+      line-height: 1.875; }
+
+.work-others {
+  padding: 12rem 0;
+  text-align: center; }
+  .work-others .others__item > .row {
+    display: flex;
+    align-items: center;
+    align-content: stretch;
+    margin-bottom: 1rem;
+    background-color: #efefef; }
+  .work-others .figure__interview {
+    text-align: left; }
+    .work-others .figure__interview .figure-caption {
+      padding: 2rem; }
+  .work-others .img_wrapper .overlay {
+    background-color: rgba(30, 185, 238, 0.4); }
+
+.work-description h2,
+.work-others h2 {
+  font-size: 2.4rem;
+  margin-bottom: 4rem;
+  color: #1eb9ee;
+  font-weight: bold;
+  line-height: 1.667; }
+
+.banner__slider li .text {
+  text-align: left; }
+
+.banner__slider li:nth-child(1) {
+  background-image: url("../img/interview/img_detail_91.jpg");
+  background-size: cover; }
+
+.figure__interview {
+  display: block;
+  margin-bottom: 1.5rem;
+  overflow: hidden;
+  background-color: #efefef; }
+  .figure__interview .figure-img {
+    width: 100%;
+    margin-bottom: 0; }
+  .figure__interview .figure-caption {
+    margin: 0;
+    padding: 4rem;
+    text-align: left; }
+    .figure__interview .figure-caption .jp {
+      font-size: 2.8rem;
+      font-family: "Yu Gothic", sans-serif;
+      color: #333333;
+      font-weight: bold;
+      line-height: 1.429; }
+    .figure__interview .figure-caption .en {
+      margin-left: 1rem;
+      font-size: 1.6rem;
+      font-family: "Poppins", sans-serif;
+      color: #999999;
+      font-weight: bold;
+      line-height: 2.5; }
+    .figure__interview .figure-caption .figure__desc {
+      font-size: 1.6rem;
+      font-family: "Yu Gothic", sans-serif;
+      color: #1eb9ee;
+      font-weight: bold;
+      line-height: 2.5; }
+
+.breadcrumb {
+  margin-bottom: 0; }
+
+@media (max-width: 575.98px) {
+  .work-description {
+    padding: 4rem 1rem 6rem 1rem; }
+    .work-description p {
+      font-size: 1.4rem; }
+  .work-story {
+    padding: 1rem; }
+    .work-story h4 {
+      margin: 2rem auto; }
+  .work-others {
+    padding: 1rem; } }
